@@ -19,12 +19,11 @@
   "dependencies": {
     "angular": "~1.x",
     "jquery": "~2.x",
-    "jqplot-bower": "1.0.8"
-  }
-  ,
-  "overrides":{
-    "jqplot-bower":{
-      "main":[
+    "jqplot-bower": "https://github.com/codevinsky/jqplot-bower.git#^1.0.8"
+  },
+  "overrides": {
+    "jqplot-bower": {
+      "main": [
         "dist/jquery.jqplot.js",
         "dist/plugins/jqplot.dateAxisRenderer.js"
       ]
