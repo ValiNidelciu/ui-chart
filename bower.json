@@ -25,8 +25,8 @@
   "overrides":{
     "jqplot-bower":{
       "main":[
-        "dist/jquery.jqplot.min.js",
-        "dist/plugins/jqplot.dateAxisRenderer.min.js"
+        "dist/jquery.jqplot.js",
+        "dist/plugins/jqplot.dateAxisRenderer.js"
       ]
     }
   },
