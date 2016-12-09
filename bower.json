@@ -20,6 +20,15 @@
     "angular": "~1.x",
     "jquery": "~2.x",
     "jqplot-bower": "1.0.8"
+  }
+  ,
+  "overrides":{
+    "jqplot-bower":{
+      "main":[
+        "dist/jquery.jqplot.min.js",
+        "dist/plugins/jqplot.dateAxisRenderer.min.js"
+      ]
+    }
   },
   "devDependencies": {
     "angular-mocks": "~1.x",
